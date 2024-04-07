@@ -50,7 +50,12 @@ export default AppLayout;
 
 const LayoutUser = styled.div`
     .navigation_bar {
-        background-color: #111 !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.7) !important;
+        z-index: 1000;
 
         .navbar-brand {
             width: 172px;

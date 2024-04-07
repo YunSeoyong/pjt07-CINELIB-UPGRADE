@@ -1,12 +1,15 @@
 @charset "utf-8";
 
 :root {
-    --font-title: clamp(1.6rem, 3vw, 2rem);
+    --font-title: clamp(1.8rem, 8vw, 2.8rem);
+    --font-subtitle: clamp(0.9rem, 4vw, 1.5rem);
 
     --color-primary: #FF9700;
 }
 
 .App {
+    position: relative;
+    width: 100%;
     min-height: 100vh;
     min-height: 100dvh;
     background-color: #111;

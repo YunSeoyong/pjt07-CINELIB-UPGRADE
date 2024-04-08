@@ -3,6 +3,8 @@
 :root {
     --font-title: clamp(1.8rem, 8vw, 2.8rem);
     --font-subtitle: clamp(0.9rem, 4vw, 1.5rem);
+    --font-content-title: clamp(1.4rem, 6vw, 2rem);
+    --font-content-subtitle: clamp(1.1em, 4vw, 1.7rem);
 
     --color-primary: #FF9700;
 }
@@ -12,6 +14,7 @@
     width: 100%;
     min-height: 100vh;
     min-height: 100dvh;
+    padding-bottom: 120px;
     background-color: #111;
     color: #fff;
     
